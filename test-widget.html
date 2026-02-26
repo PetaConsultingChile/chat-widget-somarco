@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget CMV - Prueba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Widget Somarco - RAG</h1>
+    </div>
+
+ <script
+  src="/widget.js"
+  data-chat-api-base-url="https://api.nuevosomarcochat.com/"
+  data-chat-get-path="/chat/request"
+  data-chat-send-path="/chat/send"
+  data-use-server-history="true"
+></script>
+</body>
+</html> 

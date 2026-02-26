@@ -1,0 +1,127 @@
+{
+  "tree": {
+    "start": {
+      "message": "¡Hola Como estas?! Bienvenido al asistente virtual del CMV. ¿En qué puedo ayudarte?",
+      "options": [
+        { "text": "Acreditación", "next": "acreditacion" },
+        { "text": "Exámenes", "next": "examenes" },
+        { "text": "Pagos", "next": "pagos" },
+        { "text": "Esquema de Formación Continua", "next": "esquema_formacion" }
+      ]
+    },
+    "acreditacion": {
+      "message": "Información sobre Acreditación. ¿Qué necesitas saber?",
+      "options": [
+        { "text": "¿Cómo puede postular?", "next": "como_postular" },
+        { "text": "¿Cuál es el plazo para la revisión de antecedentes?", "next": "plazo_revision" },
+        { "text": "¿Hasta cuándo se mantiene la estructura en cuanto a composición, temarios y categorías en el Examen de Acreditación?", "next": "estructura_examen" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "como_postular": {
+      "message": "Para postular a la acreditación, debes cumplir con los requisitos establecidos por el CMV y presentar la documentación requerida en los plazos establecidos. Te recomendamos revisar la información detallada en nuestro sitio web oficial.",
+      "options": [
+        { "text": "Volver a Acreditación", "next": "acreditacion" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "plazo_revision": {
+      "message": "El plazo para la revisión de antecedentes varía según el tipo de acreditación y la complejidad de la documentación presentada. Generalmente, el proceso toma entre 15 a 30 días hábiles desde la recepción completa de la documentación.",
+      "options": [
+        { "text": "Volver a Acreditación", "next": "acreditacion" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "estructura_examen": {
+      "message": "La estructura del Examen de Acreditación, incluyendo composición, temarios y categorías, se mantiene vigente hasta que el CMV publique modificaciones oficiales. Te recomendamos estar atento a las comunicaciones oficiales del organismo.",
+      "options": [
+        { "text": "Volver a Acreditación", "next": "acreditacion" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "examenes": {
+      "message": "Información sobre Exámenes. ¿Qué modalidad te interesa?",
+      "options": [
+        { "text": "¿Cuáles son las modalidades de exámenes?", "next": "modalidades_examenes" },
+        { "text": "¿Cómo puede rendir en modalidad online?", "next": "examen_online" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "modalidades_examenes": {
+      "message": "El CMV ofrece diferentes modalidades de exámenes: presencial en nuestras oficinas, online desde tu ubicación, y en algunos casos, en centros autorizados. La modalidad disponible dependerá del tipo de examen y las condiciones establecidas.",
+      "options": [
+        { "text": "Volver a Exámenes", "next": "examenes" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "examen_online": {
+      "message": "Para rendir en modalidad online, necesitas contar con un equipo con cámara web, micrófono, conexión estable a internet y un espacio adecuado. El sistema incluye supervisión remota para garantizar la integridad del examen.",
+      "options": [
+        { "text": "Volver a Exámenes", "next": "examenes" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "pagos": {
+      "message": "Información sobre Pagos. ¿Qué necesitas saber?",
+      "options": [
+        { "text": "¿Cuánto es el valor del examen?", "next": "valor_examen" },
+        { "text": "¿Cuáles son los medios de pago?", "next": "medios_pago" },
+        { "text": "¿Cuál es el valor del Esquema de Formación Continua?", "action": "esquema_formacion_continua" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "valor_examen": {
+      "message": "El valor del examen varía según el tipo de acreditación y la modalidad. Te recomendamos consultar la información actualizada en nuestro sitio web oficial o contactar directamente con nuestro equipo de atención.",
+      "options": [
+        { "text": "Volver a Pagos", "next": "pagos" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "medios_pago": {
+      "message": "Aceptamos diversos medios de pago: transferencia bancaria, depósito en cuenta corriente, pago con tarjeta de crédito/débito, y otros métodos autorizados. Los detalles específicos se proporcionan al momento de la inscripción.",
+      "options": [
+        { "text": "Volver a Pagos", "next": "pagos" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "esquema_formacion": {
+      "message": "Información sobre el Esquema de Formación Continua. ¿Qué necesitas saber?",
+      "options": [
+        { "text": "Tengo que realizar mi Esquema de Formación Continua", "next": "realizar_esquema" },
+        { "text": "¿Qué cursos corresponden según mi categoría funcional?", "next": "cursos_categoria" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "realizar_esquema": {
+      "message": "Para realizar tu Esquema de Formación Continua, debes acceder a tu cuenta en el portal del CMV, completar la información requerida y seguir los pasos indicados en el sistema. Te recomendamos revisar la documentación disponible.",
+      "options": [
+        { "text": "Volver a Esquema de Formación Continua", "next": "esquema_formacion" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "cursos_categoria": {
+      "message": "Los cursos que corresponden según tu categoría funcional se determinan en base a las regulaciones vigentes y tu perfil profesional. Te recomendamos consultar el catálogo oficial de cursos aprobados por el CMV.",
+      "options": [
+        { "text": "Volver a Esquema de Formación Continua", "next": "esquema_formacion" },
+        { "text": "Volver al menú principal", "next": "start" }
+      ]
+    },
+    "end": {
+      "message": "¡Gracias por usar nuestro asistente virtual! ¿Hay algo más en lo que pueda ayudarte?",
+      "options": [
+        { "text": "Volver al inicio", "next": "start" },
+        { "text": "Salir", "action": "close_chat" }
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "description": "Árbol de decisiones para widget de chat del CMV (Comisión del Mercado de Valores)"
+  },
+  "config": {
+    "autoUpdate": true,
+    "updateInterval": 300000,
+    "cacheTime": 600000
+  }
+} 
